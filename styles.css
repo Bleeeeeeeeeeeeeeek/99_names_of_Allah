@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+    background-color: #000000;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-height: 80vh;
+}
+
+/* Container for scrollable content */
+.content-container {
+    max-height: 80vh; /* Set a maximum height for the content container */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds the maximum height */
+    max-width: max-content;
+}
+
+h1 {
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    color: gold;
+}
+
+p {
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 16px;
+}
+
+/* Navigation Arrows */
+.arrow-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Remove link pointers and make text white */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo */
+.logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
