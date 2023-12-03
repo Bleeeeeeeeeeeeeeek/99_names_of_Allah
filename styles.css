@@ -3,7 +3,7 @@
 body {
     font-family: 'Hedvig Letters Serif', serif;
     background-color: #000000;
-    color: gold;
+    color: #dcc972;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -24,7 +24,7 @@ body {
 h1 {
     font-family: 'Amiri', serif;
     font-weight: 700;
-    color: gold;
+    color: #bba53d;
 }
 
 p {
@@ -44,7 +44,7 @@ p {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    color: #ffffff;
+    color: #e4d692;
 }
 
 /* Remove link pointers and make text white */
@@ -59,7 +59,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e9dda6;
 }
 
 /* Logo */
